@@ -2,9 +2,9 @@ import React from "react";
 
 function ImageGallery() {
     return (
-        <h1>
-            IMAGES
-        </h1>
+        <div>
+            Gallery component
+        </div>
     )
 }
 

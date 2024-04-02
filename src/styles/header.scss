@@ -1,0 +1,28 @@
+@import "./variables.scss";
+
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .mainHeader {
+        padding: 20px;
+
+        .subHeaderLabel {
+            color: $rose;
+        }
+    }
+
+    .subHeader{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        color: $rose;
+        
+        .subHeaderLabel {
+            padding: 20px;
+        }
+    }
+}
