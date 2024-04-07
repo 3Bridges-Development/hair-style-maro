@@ -6,7 +6,7 @@ import Contact from "../components/Contact";
 
 function Home() {
         return (
-                <div className="home">
+                <div className="container-fluid home">
                         <Header />
                         <ImageGallery />
                         <Contact />
