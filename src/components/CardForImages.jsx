@@ -10,48 +10,68 @@ import img7 from "../assets/img7.jpg";
 import img8 from "../assets/img8.jpg";
 import img9 from "../assets/img9.jpg";
 import img10 from "../assets/img10.jpg";
+import img11 from "../assets/0203.jpg";
+import img12 from "../assets/0043.jpg";
+import img13 from "../assets/0060.jpg";
+import img14 from "../assets/0005.jpg";
 
 function ImageCard( ) {
     const mediaData = [
         {
             src: img1,
-            alt: "blonde hair style"
+            alt: "blonde up hair style"
         },
         {
             src: img2,
-            alt: "",
+            alt: "blonde up hair style"
         },
         {
             src: img3,
-            alt: ""
+            alt: "blonde up hair style curled"
         },
         {
             src: img4,
-            alt: ""
+            alt: "blonde up hair style curled"
         },
         {
             src: img5,
-            alt: ""
+            alt: "blonde up hair style curled"
         },
         {
             src: img6,
-            alt: ""
+            alt: "blonde up hair style curled"
         },
         {
             src: img7,
-            alt: ""
+            alt: "blonde up hair style curled"
         },
         {
             src: img8,
-            alt: ""
+            alt: "blonde up hair style curled"
         },
         {
             src: img9,
-            alt: ""
+            alt: "blonde up hair style curled"
         },
         {
             src: img10,
-            alt: ""
+            alt: "blonde up hair style curled"
+        },
+        {
+            src: img11,
+            alt: "wedding ceremony photo with a bride and groom"
+        },
+        {
+            src: img12,
+            alt: "mother and daughter smiling at each other getting ready for a wedding"
+        },
+        {
+            src: img13,
+            alt: "bride staring out a window with curled blonde hair"
+        },
+        {
+            src: img14,
+            alt: "female wedding party smiling getting ready for a wedding"
         },
     ]
     return (
