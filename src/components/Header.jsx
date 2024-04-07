@@ -4,7 +4,7 @@ function Header() {
     return (
         <section className="header">
             <div className="mainHeader">
-                <h1>Haera's Haircare</h1>
+                <h1>Creative Expression </h1>
                 <h2 className="subHeaderLabel">by Maro</h2>
             </div>
             <section className="subHeader">
@@ -12,10 +12,10 @@ function Header() {
                     <h3>Images</h3>
                 </div>
                 <div className="subHeaderLabel">
-                    <h3>Contact</h3>
+                    <a href="#contact">Contact</a>
                 </div>
                 <div className="subHeaderLabel">
-                    <h3>XXX-XXX-XXXX</h3>
+                    <h3>(858)-442-0548</h3>
                 </div>
             </section>
         </section>
