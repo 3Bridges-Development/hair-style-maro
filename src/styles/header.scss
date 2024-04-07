@@ -5,12 +5,15 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    // background-color: $maroon;
+    // color: $lightOrange;
 
     .mainHeader {
         padding: 20px;
 
-        .subHeaderLabel {
+        .byMaro {
             color: $rose;
+            font-size: 18px;
         }
     }
 
