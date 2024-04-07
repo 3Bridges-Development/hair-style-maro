@@ -10,10 +10,8 @@ import img7 from "../assets/img7.jpg";
 import img8 from "../assets/img8.jpg";
 import img9 from "../assets/img9.jpg";
 import img10 from "../assets/img10.jpg";
-import img11 from "../assets/0203.jpg";
-import img12 from "../assets/0043.jpg";
-import img13 from "../assets/0060.jpg";
-import img14 from "../assets/0005.jpg";
+import img11 from "../assets/0043.jpg";
+import img12 from "../assets/0060.jpg";
 
 function ImageCard( ) {
     const mediaData = [
@@ -59,32 +57,21 @@ function ImageCard( ) {
         },
         {
             src: img11,
-            alt: "wedding ceremony photo with a bride and groom"
-        },
-        {
-            src: img12,
             alt: "mother and daughter smiling at each other getting ready for a wedding"
         },
         {
-            src: img13,
+            src: img12,
             alt: "bride staring out a window with curled blonde hair"
-        },
-        {
-            src: img14,
-            alt: "female wedding party smiling getting ready for a wedding"
         },
     ]
     return (
         <section id="imageCard" className="imageCard">
             {mediaData[0] ? (
                 mediaData.map((image) => (
-                <Card style={{ width: `18rem`}} key={image.src} className="imageContainer">
-                    <Card.Img style={{width: '100%', height: '80%'}} src={image.src} alt={image.alt} className="hairImage" />
+                <Card key={image.src} className="imageContainer">
+                    <Card.Img style={{width: '100%', maxWidth: '350px', height: '100%', maxHeight: '350px'}} src={image.src} alt={image.alt} className="hairImage" />
                 </Card>
                 ))
-                    // <div className="cardContainer">
-                    //     <img src={image.src} alt={image.alt} height="500px"></img>
-                    // </div>
 
             ) : null}
 
