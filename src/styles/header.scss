@@ -24,7 +24,6 @@
     .subHeader{
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
         justify-content: flex-end;
         align-items: center;
         color: $rose;
@@ -33,7 +32,15 @@
             padding: 20px;
             font-size: 1.5rem;
 
-            a{
+            @media (max-width: 425px) {
+                padding: 16px;
+            }
+
+            @media (max-width: 400px) {
+                padding: 10px;
+            }
+
+            a {
                 text-decoration: none;
                 color: $rose;
             }
