@@ -1,0 +1,42 @@
+@import "./variables.scss";
+
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .mainHeader {
+        padding: 5px;
+        font-size: 3rem;
+
+        .title{
+            margin: 5px;
+
+            .byMaro {
+                color: $rose;
+                font-size: 2rem;
+            }
+        }
+
+    }
+
+    .subHeader{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        align-items: center;
+        color: $rose;
+
+        .subHeaderLabel {
+            padding: 20px;
+            font-size: 1.5rem;
+
+            a{
+                text-decoration: none;
+                color: $rose;
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+@import "./variables.scss";
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: $rose;
+    padding: 50px;
+
+    h3, p {
+        margin: 0;
+        margin-bottom: .5rem;
+    }
+
+    .imageCard {
+        padding-top: 30px;
+    }
+}

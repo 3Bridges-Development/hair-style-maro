@@ -1,0 +1,22 @@
+@import "./variables.scss";
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: $white;
+    padding: 50px;
+    background-color: $maroon;
+
+    h3, p {
+        margin: 0;
+        margin-bottom: .5rem;
+    }
+
+    .phone {
+        text-decoration: none;
+        color: $lightOrange;
+    }
+}
