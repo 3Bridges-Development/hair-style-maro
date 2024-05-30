@@ -3,17 +3,21 @@
 @import "./styles/contact.scss";
 @import "./styles/footer.scss";
 @import "./styles/imageGallery.scss";
-@import "./styles//cardForImages.scss";
+@import "./styles/cardForImages.scss";
+@import "./styles/services.scss";
+
+body {
+    margin: 0;
+    padding: 0;
+}
 
 .App {
     // background-color: $lightOrange; // decide if we want this as the background color
+    margin: 0;
+    padding: 0;
 
     .home {
         font-family: $robotoCondensed;
         color: $maroon;
-
-        div, h2, h3, h4, h5, h6, p{
-            font-weight: 400;
-        }
     }
 }
