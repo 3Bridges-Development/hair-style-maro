@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import ImageGallery from "../components/ImageGallery";
 import Contact from "../components/Contact";
+import Services from "../components/Services";
 
 function Home() {
         return (
@@ -10,6 +11,7 @@ function Home() {
                         <Header />
                         <Contact />
                         <ImageGallery />
+                        <Services />
                         <Footer />
                 </div>
         )

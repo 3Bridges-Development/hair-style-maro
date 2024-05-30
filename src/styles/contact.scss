@@ -10,6 +10,7 @@
     padding: 50px;
     background-color: $maroon;
 
+
     h3, p {
         margin: 0;
         margin-bottom: .5rem;
@@ -18,5 +19,13 @@
     .phone {
         text-decoration: none;
         color: $lightOrange;
+    }
+
+    @media (max-width: 425px) {
+        padding: 36px;
+
+        p {
+            text-align: center;
+        }
     }
 }
