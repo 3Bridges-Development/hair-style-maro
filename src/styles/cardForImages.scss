@@ -1,16 +1,5 @@
 @import "./variables.scss";
 
-.imageCard {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-
-    .imageContainer {
-        padding: 20px;
-        
-        .hairImage{
-            border-radius: 3px;
-        }
-    }
+.daGMts {
+    justify-items: center;
 }

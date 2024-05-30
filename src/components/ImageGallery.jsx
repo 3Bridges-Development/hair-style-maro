@@ -5,7 +5,7 @@ function ImageGallery() {
     return (
         <section id="gallery" className="gallery">
             <h3>Gallery</h3>
-            <p classNAme="gallerySubtext">Specializing in wedding hair styles</p>
+            <p className="gallerySubtext">Specializing in wedding hair styles</p>
             <ImageCard />
         </section>
     )
