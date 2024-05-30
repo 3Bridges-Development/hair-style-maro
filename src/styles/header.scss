@@ -7,11 +7,10 @@
     justify-content: space-between;
 
     .mainHeader {
-        padding: 5px;
         font-size: 3rem;
 
         .title{
-            margin: 5px;
+            margin: 1rem;
 
             .byMaro {
                 color: $rose;
@@ -30,14 +29,22 @@
 
         .subHeaderLabel {
             padding: 20px;
-            font-size: 1.5rem;
+            font-size: 1.25rem;
 
             @media (max-width: 425px) {
-                padding: 16px;
+                padding: .75rem;
             }
 
             @media (max-width: 400px) {
-                padding: 10px;
+                padding: .5rem;
+            }
+
+            @media (max-width: 369px) {
+                padding: 3px;
+            }
+
+            @media (max-width: 320px) {
+                padding: 1px;
             }
 
             a {

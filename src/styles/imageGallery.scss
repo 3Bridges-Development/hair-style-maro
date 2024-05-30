@@ -17,4 +17,12 @@
     .imageCard {
         padding-top: 30px;
     }
+
+    @media (max-width: 425px) {
+        padding: 36px;
+
+        p {
+            text-align: center;
+        }
+    }
 }
